@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('/sporkbg.png'); /* You can change this */
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent */
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.tag {
+  background-color: #b58900;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.4rem 1rem;
+  margin: 0.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tag:hover {
+  background-color: #a47500;
+}
+
+.ban-button {
+  background-color: crimson;
+  padding: 0.4rem 0.8rem;
+  margin: 0.4rem;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+img.cat-image {
+  margin-top: 1rem;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
